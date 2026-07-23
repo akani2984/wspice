@@ -2,7 +2,7 @@
 spice client for desktop and mobile, WITHOUT any pro version and ads, based on spice-html5
 # usage 
 on your spice server: <br>
-websockify  --web=place to wspice listen adddress  spice server spice <br>
+websockify  --web=place-to-wspice listen-adddress  spice-server-spice <br>
 for example , <br>
 websockify  --web=/Data/Work/wspice 0.0.0.0:9002 127.0.0.1:5901 <br>
 then access you-server-ip:9002 to use the client. <br>
