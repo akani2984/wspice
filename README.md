@@ -1,5 +1,5 @@
 # wspice
-spice client for desktop and mobile, WITHOUT any pro version and ads, based on spice-html5
+spice client for desktop and mobile, WITHOUT any pro versions and ads, based on spice-html5
 # usage 
 on your spice server: <br>
 websockify  --web=place-to-wspice adddress-for-listening  spice-server-spice <br>
