@@ -32,30 +32,9 @@
 **--------------------------------------------------------------------------*/
 function resize_helper(sc)
 {
-    var w = document.getElementById(sc.screen_id).clientWidth;
     var m = document.getElementById(sc.message_id);
-
-    /* Resize vertically; basically we leave a 20 pixel margin
-         at the bottom, and use the position of the message window
-         to figure out how to resize */
-
-    var h = window.innerHeight ;
-
-    /* Screen height based on debug console visibility  */
-    if (m != null)
-    {
-        if (window.getComputedStyle(m).getPropertyValue("display") == 'none')
-        {
-            /* Get console height from spice.css .spice-message */
-            var mh = parseInt(window.getComputedStyle(m).getPropertyValue("height"), 10);
-            h = h - mh;
-        }
-        else
-        {
-            /* Show both div elements - spice-area and message-div */
-            h = h - m.offsetHeight - m.clientHeight;
-        }
-    }
+    var w =  document.documentElement.clientWidth - 0;
+    var h =  document.documentElement.clientHeight - 25;
 
 
     /* Xorg requires height be a multiple of 8; round down */
