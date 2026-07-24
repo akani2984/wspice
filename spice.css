@@ -27,6 +27,8 @@ button
     font-weight: bolder;
     padding: 0px 0px 3px 0px;
     margin-top: 5px;
+    height: 20px
+
 }
 button:focus
 {
@@ -115,6 +117,7 @@ canvas
     z-index: 1;
     padding-top: 2px;
     border-bottom: 2px solid #00000040;
+    height: 25px
 }
 #login p
 {
@@ -137,6 +140,10 @@ canvas
     text-align: center;
     padding: 0;
     background-color: #999999;
+    position: fixed;
+    top: 25;
+    left: 0;
+
 }
 .spice-message
 {
